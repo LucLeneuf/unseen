@@ -19,9 +19,10 @@
     top: 3%; /* pour que le header soit toujours au bon endroit*/
 }
 #home-bg{
-    background: url("blue.svg");
+    background: url("../images/icons/homecircle-mobile.png") fixed;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 70% 70%;
 }
 .card div{
     justify-content: center;
@@ -294,9 +295,7 @@ h1
             justify-content: center;
             align-items: center;
             margin: 0 auto;
-            
             text-align: center;
-
             flex-direction: column;
             row-gap: 8rem;
             max-width: 80rem;
@@ -480,7 +479,9 @@ button{
 #fiches-contact{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     column-gap: 4rem;
+    flex-wrap: wrap;
 }
 #fiches-contact li{
     padding: 0 1rem;
@@ -687,6 +688,12 @@ button{
         flex-wrap: wrap;
         justify-content: center;
     }
+    #home-bg{
+        background: url("../images/icons/homecircle.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
 
 
 
@@ -769,8 +776,12 @@ button{
     #fiches-contact{
         flex-direction: row;
     }
-}
-
+    #home-bg{
+        background: url("../images/icons/homecircle.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+    }
 
 
     /* Navigation article */
@@ -822,8 +833,7 @@ button{
 
 
     /* Index */
-
-
+}
   
     
 

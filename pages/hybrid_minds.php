@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/style/styles.css">
-    <link rel="shortcut icon" href="../assets/images/icons/favicon2.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/images/icons/un.png" type="image/x-icon">
     <title>Aspects créatif</title>
 </head>
 
@@ -36,16 +36,6 @@
         </div>
     </div>
 
-<<<<<<< HEAD
-    <div class="container_article font_text">
-        <a href="chloe.php">chloé</a>
-        <a href="romain.php">romain</a>
-        <a href="herve.php">herve</a>
-        <a href="luc.php">luc</a>
-        <a href="adam.php">adam</a>
-        <a href="jean-baptiste.php">Jean-Baptiste</a>
-        <a href="tiavina.php">Tiavina</a>
-=======
     <div class="container_nav_article font_text">
 
             <div class="container_nav_article__item ">
@@ -125,11 +115,7 @@
                         <a href="luc.php"><div class="button_purple"> Voir plus </div></a>
                     </div>
             </div>
-    
-       
-       
-   
->>>>>>> luc
+
     </div>  
 
 </div>
